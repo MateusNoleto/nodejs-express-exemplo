@@ -1,4 +1,4 @@
-import { sign } from 'jsonwebtoken'
+import { generateAccessToken } from "../../utils/auth"
 
 let users = []
 
